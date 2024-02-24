@@ -3,11 +3,11 @@ body {
 }
 
 .calculator {
-  border: 2px solid #ccc;
+  border: 2px solid #0c0101;
   border-radius: 5px;
   padding: 20px;
   background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
   width: 300px;
   margin: 0 auto;
 }
@@ -48,7 +48,7 @@ body {
   cursor: pointer;
   border: none;
   border-radius: 5px;
-  background-color: #007bff;
+  background-color: #96afc9;
   color: #fff;
 }
 
@@ -57,10 +57,11 @@ body {
 }
 
 .buttons button:active {
-  background-color: #004080;
+  background-color: rgb(117, 130, 51);
 }
 
 .history {
+  text-decoration: #0c0101;
   margin-top: 20px;
 }
 
@@ -80,15 +81,24 @@ body {
 /* Dark mode */
 .dark-mode {
   background-color: #222;
-  color: #fff;
+  color: black;
 }
 
 .dark-mode .display button {
-  background-color: #555;
+  background-color: pink;
+  padding: 8px;
+  font-size: 12px;
+  cursor: pointer;
+  border: black;
+  border-radius: 5px;
+  color: black;
 }
 
+
 .dark-mode .buttons button {
-  background-color: #555;
+  background-color: wheat;
+  width: auto;
+  color: #222;
 }
 
 .dark-mode .buttons button:hover {
